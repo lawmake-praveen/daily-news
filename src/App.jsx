@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./sections/Header";
-import HomePage from "./pages/homepage";
+import HomePage from "./pages/homepage.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SearchPage from "./pages/Search";
 import NewsDetailsPage from "./pages/NewsDetailsPage";
