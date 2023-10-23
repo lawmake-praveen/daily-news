@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Header from "./sections/Header";
-import HomePage from "./pages/homepage";
+import HomePage from "./pages/homepage.jsx";
 import SearchPage from "./pages/Search";
 import NewsDetailsPage from "./pages/NewsDetailsPage";
 import CategoryListingPage from "./pages/CategoryListingPage";

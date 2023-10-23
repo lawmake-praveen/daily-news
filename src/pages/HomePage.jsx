@@ -34,12 +34,6 @@ const HomePage = () => {
   const india = useSelector((state) => state.news.india);
   const space = useSelector((state) => state.news.space);
   const movies = useSelector((state) => state.news.movies);
-  const fashion = useSelector((state) => state.news.fashion);
-  const politics = useSelector((state) => state.news.politics);
-  const shareMarket = useSelector((state) => state.news.shareMarket);
-  const business = useSelector((state) => state.news.business);
-  const travel = useSelector((state) => state.news.travel);
-  const weather = useSelector((state) => state.news.weather);
 
   useEffect(() => {
     if (breaking.length == 0) {
